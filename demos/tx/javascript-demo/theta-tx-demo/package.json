@@ -29,7 +29,7 @@
   "dependencies": {
     "arraybuffer-to-buffer": "0.0.5",
     "bignumber.js": "^8.0.2",
-    "bn.js": "^4.11.8",
+    "bn.js": "^5.2.0",
     "js-sha3": "^0.8.0",
     "rlp": "^2.2.2",
     "secp256k1": "^3.6.1",
