@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "NodeJs mainnet api demo",
   "scripts": {
-    "test": "jest  --watchAll"
+    "test": "jest  --watchAll",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -25,7 +27,8 @@
     "class-validator": "^0.9.1",
     "jayson": "^2.1.2",
     "morphism": "^1.10.0",
-    "wallet-address-validator": "^0.2.4"
+    "wallet-address-validator": "^0.2.4",
+    "@snyk/protect": "latest"
   },
   "standard": {
     "parser": "babel-eslint",
@@ -38,5 +41,6 @@
       "afterAll",
       "afterEach"
     ]
-  }
+  },
+  "snyk": true
 }
