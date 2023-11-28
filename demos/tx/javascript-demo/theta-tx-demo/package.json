@@ -17,9 +17,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^23.6.0",
+    "jest": "^26.0.0",
     "jest-custom-reporter": "^1.0.4",
-    "jest-silent-reporter": "^0.1.1",
+    "jest-silent-reporter": "^0.1.2",
     "rollup": "^0.66.0",
     "rollup-plugin-commonjs": "^9.1.0",
     "rollup-plugin-json": "^3.1.0",
