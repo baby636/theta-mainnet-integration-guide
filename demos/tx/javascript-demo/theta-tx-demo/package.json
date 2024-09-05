@@ -17,9 +17,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^23.6.0",
+    "jest": "^28.0.0",
     "jest-custom-reporter": "^1.0.4",
-    "jest-silent-reporter": "^0.1.1",
+    "jest-silent-reporter": "^0.3.0",
     "rollup": "^0.66.0",
     "rollup-plugin-commonjs": "^9.1.0",
     "rollup-plugin-json": "^3.1.0",
@@ -32,7 +32,7 @@
     "bn.js": "^4.11.8",
     "js-sha3": "^0.8.0",
     "rlp": "^2.2.2",
-    "secp256k1": "^3.6.1",
+    "secp256k1": "^4.0.3",
     "eth-lib": "0.2.8",
     "lodash": "4.17.11"
   }
